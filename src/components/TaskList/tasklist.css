@@ -1,0 +1,39 @@
+.tasklist {
+  padding: 8px;
+  background-color: rgb(87, 87, 87);
+  border-radius: 2px;
+}
+.tasklist .title {
+  padding: 4px;
+  font-weight: bold;
+  background-color: rgb(156, 158, 158);
+  text-align: center;
+}
+
+.tasklist .content {
+  padding: 16px 4px;
+  display: flex;
+  flex-direction: column;
+}
+
+.tasklist .btn {
+  margin-top: 8px;
+  padding: 8px;
+  display: flex;
+  justify-content: center;
+  background: none;
+  border: none;
+  border-radius: 3px;
+  color: rgb(158, 158, 158);
+  background: rgb(38, 38, 39);
+  transition: background-color 0, 3s;
+  height: 50px;
+  width: 229px;
+}
+
+.tasklist .content .empty-list {
+  text-align: center;
+  border: 1px dashed rgb(255, 255, 255);
+  border-radius: 4px;
+  padding: 4px;
+}
